@@ -1,0 +1,102 @@
+[
+  {
+    "id": 0,
+    "nome": "FILM",
+    "autore": "pierino",
+    "descrizione": "",
+    "anno": "",
+    "wiki": "",
+    "img": "",
+    "prenotazioni": 12
+  },
+  {
+    "id": 1,
+    "nome": "FILM 2",
+    "autore": "",
+    "descrizione": "",
+    "anno": "",
+    "wiki": "",
+    "img": "",
+    "prenotazioni": 12
+  },
+  {
+    "id": 0,
+    "nome": "FILM",
+    "autore": "",
+    "descrizione": "",
+    "anno": "",
+    "wiki": "",
+    "img": "",
+    "prenotazioni": 12
+  },
+  {
+    "id": 1,
+    "nome": "FILM 2",
+    "autore": "",
+    "descrizione": "",
+    "anno": "",
+    "wiki": "",
+    "img": "",
+    "prenotazioni": 12
+  },
+  {
+    "id": 0,
+    "nome": "FILM",
+    "autore": "",
+    "descrizione": "",
+    "anno": "",
+    "wiki": "",
+    "img": "",
+    "prenotazioni": 12
+  },
+  {
+    "id": 1,
+    "nome": "FILM 2",
+    "autore": "",
+    "descrizione": "",
+    "anno": "",
+    "wiki": "",
+    "img": "",
+    "prenotazioni": 12
+  },
+  {
+    "id": 0,
+    "nome": "FILM",
+    "autore": "",
+    "descrizione": "",
+    "anno": "",
+    "wiki": "",
+    "img": "",
+    "prenotazioni": 12
+  },
+  {
+    "id": 1,
+    "nome": "FILM 2",
+    "autore": "",
+    "descrizione": "",
+    "anno": "",
+    "wiki": "",
+    "img": "",
+    "prenotazioni": 12
+  },
+  {
+    "id": 0,
+    "nome": "FILM",
+    "autore": "pierino",
+    "descrizione": "",
+    "anno": "",
+    "wiki": "",
+    "img": "",
+    "prenotazioni": 12
+  },
+  {
+    "id": 1,
+    "nome": "FILM 2",
+    "autore": "",
+    "descrizione": "",
+    "anno": "",
+    "wiki": "",
+    "img": "",
+    "prenotazioni": 12
+  }
+]

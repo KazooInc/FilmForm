@@ -3,7 +3,7 @@ import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 
 const Navigation = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="#home">Cinema a Povo</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
