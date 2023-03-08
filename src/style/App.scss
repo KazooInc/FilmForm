@@ -2,16 +2,91 @@ body {
   margin: 0;
 }
 
-.App {
+/* nascondere la scrollbar */
+html::-webkit-scrollbar {
+  display: none;
+}
+html {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
 }
 
-.Landing {
+.App {
+  background-color: #6f4f4f;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
   min-height: 100vh;
-  .accordion-item {
-    border: none !important;
+
+  //impedire la selezione del testo
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+
+  .logo {
+    width: 200px;
   }
-  .line {
-    width: 90%;
-    border-bottom: 1px solid rgb(205, 205, 205);
+
+  .button {
+    background: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-style: italic;
+    padding: 8px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
   }
+
+  .Footer {
+    font-size: small;
+    margin-top: 150px;
+    color: #ffffff;
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0px;
+    }
+    #primary {
+      min-height: 30vh;
+      background-color: #4e3232;
+    }
+    #secondary {
+      min-height: 50px;
+      background-color: #6f4f4f;
+    }
+  }
+}
+
+.titolo {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 73px;
+  @media screen and (max-width: 900px) {
+    font-size: 48px;
+    line-height: 53px;
+  }
+}
+
+.sottotitolo {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.testo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
