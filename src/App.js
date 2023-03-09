@@ -28,9 +28,9 @@ function App() {
               massa non id. Sapien diam sed in laoreet congue egestas
               pellentesque cras neque.{" "}
             </p>
-            <form>
+            <form id="sib-form" method="POST" action="https://4af95b59.sibforms.com/serve/MUIEADhKo3_3a0NdVhz5pXdu-OCupVvitZk7eyZPfqNvN-P_1o3x-BwY3AbRTwmbNMc0TSi3cTLStk7-BHabFPLs8B-6N6-HEURnfprfZYqmSU2Ru8TKq7E2TQDXVtAZPhcbB-AMwJngZPbGk34AGU6GJxwiEQPSlNSX1jbtpu97Fwqh9LXNkQRtcTgkBxLhZFHLNX7ZBUm_3JfS">
               <label className="custom-field mt-5">
-                <input type="text" placeholder="Inserisci qui la tua email" />
+                <input type="text" placeholder="Inserisci qui la tua email"  id="EMAIL" name="EMAIL" autocomplete="off" data-required="true" required />
               </label>
               <p className="testo">
                 Lorem ipsum dolor sit amet consectetur. Aliquet eget commodo
@@ -39,8 +39,9 @@ function App() {
                 pellentesque cras neque.{" "}
               </p>
               <input
-                type="button"
+                form="sib-form"
                 class="button"
+                type="submit"
                 value="Registrati alla newsletter"
               />
             </form>
