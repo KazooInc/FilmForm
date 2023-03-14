@@ -1,3 +1,14 @@
+$text: #ffffff;;
+$background: #6f4f4f;
+$footer: #4e3232;
+$link: #ffffffad;
+
+/* $text: #ffffff;;
+$background: #6f4f4f;
+$footer: #4e3232;
+$link: #ffffffad; */
+
+
 body {
   margin: 0;
 }
@@ -13,8 +24,8 @@ html {
 }
 
 .App {
-  background-color: #6f4f4f;
-  color: #ffffff;
+  background-color: $background;
+  color: $text;
   font-family: "Inter", sans-serif;
   min-height: 100vh;
 
@@ -26,14 +37,23 @@ html {
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 
+  a {
+    color: $text;
+    text-decoration: none;
+    font-weight: bold;
+    &:hover{
+      color: $link;
+    }
+  }
+
   .logo {
     width: 200px;
   }
 
   .button {
     background: none;
-    border: 1px solid #ffffff;
-    color: #ffffff;
+    border: 1px solid $text;
+    color: $text;
     font-style: italic;
     padding: 8px 42px;
     text-align: center;
@@ -46,9 +66,9 @@ html {
   .Footer {
     font-size: small;
     margin-top: 150px;
-    color: #ffffff;
+    color: $text;
     a {
-      color: #ffffff;
+      color: $text;
       text-decoration: none;
     }
     ul {
@@ -57,11 +77,11 @@ html {
     }
     #primary {
       min-height: 30vh;
-      background-color: #4e3232;
+      background-color: $footer;
     }
     #secondary {
       min-height: 50px;
-      background-color: #6f4f4f;
+      background-color: $background;
     }
   }
 }
