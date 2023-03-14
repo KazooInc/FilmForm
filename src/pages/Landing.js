@@ -11,12 +11,7 @@ function Landing() {
     <div className="Landing">
 <Container>
         <Row className="py-5">
-          <Col>
-            <img src={logo} className="logo" />
-          </Col>
-          <Col xs="auto" className="sottotitolo">
-            Aiutaci a spargere la voce.
-          </Col>
+        
         </Row>
         <Row xs={1} md={2} className="py-5">
           <Col className="pe-5 mb-5">
