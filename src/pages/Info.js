@@ -22,7 +22,7 @@ function Info() {
               piccolo teatro con schermo. <br/> 
               Una breve chiacchierata col <a href="https://www.treccani.it/vocabolario/custode/" target="_blank">custode</a> 
               mi ha confermato essere uno spazio che, sopratutto nell'ultimo periodo, viene utilizzato giusto 
-              una manciata di volte all'anno, nonostante la proposta di alcune iniziative tipo cineforum.<br/><br/>  
+              una manciata di volte all'anno.<br/><br/>  
               
               È sì un peccato ma anche una golosa occasione per appassionati di cinema, perché senza troppe 
               spese è possibile organizzare alcune proiezioni di film che difficilmente avremmo altrimenti 
